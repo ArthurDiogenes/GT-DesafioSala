@@ -89,43 +89,115 @@
       <!-- Conteúdo central -->
       <div class="flex-1 p-6 space-y-4">
         <h2 class="text-2xl font-bold mb-4">Nome do Aluno</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <!-- Card com feedback -->
-          <div class="card bg-cyan-900 text-base-content shadow-md">
-            <div class="card-body">
-              <h3 class="card-title">Atividade 1</h3>
-              <p>Descrição da atividade 1.</p>
-              <div class="mt-2">
-                <h4 class="font-semibold">Feedback do Professor:</h4>
-                <p>Muito bem executado. Parabéns!</p>
-              </div>
-            </div>
-          </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
 
-          <!-- Card sem feedback -->
-          <div class="card bg-base-100 text-base-content shadow-md">
-            <div class="card-body">
-              <h3 class="card-title">Atividade 2</h3>
-              <p>Descrição da atividade 2.</p>
-              <div class="mt-2 text-gray-400 italic">
-                Sem feedback ainda.
+            <!-- Atividade 1 -->
+            <div class="card w-full bg-base-300 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]">
+              <div class="flex justify-between items-center">
+                <span class="badge badge-neutral text-xs">13/04</span>
+                <span class="badge badge-primary text-xs">HTML/CSS</span>
+              </div>
+              <h3 class="text-lg font-semibold">Atividade 1</h3>
+              <p class="text-sm">Criar uma landing page com HTML semântico e estilos básicos em CSS.</p>
+              <div class="mt-2 text-sm text-info">
+                Feedback do professor: Muito bom! Continue explorando o Flexbox.
               </div>
             </div>
-          </div>
+          
+            <!-- Atividade 2 -->
+            <div class="card w-full bg-base-100 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]">
+              <div class="flex justify-between items-center">
+                <span class="badge badge-neutral text-xs">14/04</span>
+                <span class="badge badge-secondary text-xs">Git</span>
+              </div>
+              <h3 class="text-lg font-semibold">Atividade 2</h3>
+              <p class="text-sm">Enviar projeto para o GitHub usando linha de comando.</p>
+              <!-- Sem feedback -->
+            </div>
+          
+            <!-- Atividade 3 -->
+            <div class="card w-full bg-base-300 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]">
+              <div class="flex justify-between items-center">
+                <span class="badge badge-neutral text-xs">15/04</span>
+                <span class="badge badge-accent text-xs">Frameworks</span>
+              </div>
+              <h3 class="text-lg font-semibold">Atividade 3</h3>
+              <p class="text-sm">Criar um componente reutilizável com Tailwind e DaisyUI.</p>
+              <div class="mt-2 text-sm text-info">
+                Feedback do professor: Ótima estrutura, só evite usar classes repetidas.
+              </div>
+            </div>
+          
+            <!-- Atividade 4 -->
+            <div class="card w-full bg-base-100 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]">
+              <div class="flex justify-between items-center">
+                <span class="badge badge-neutral text-xs">16/04</span>
+                <span class="badge badge-warning text-xs">Javascript</span>
+              </div>
+              <h3 class="text-lg font-semibold">Atividade 4</h3>
+              <p class="text-sm">Criar uma função em JS para calcular a média de notas.</p>
+              <!-- Sem feedback -->
+            </div>
+          
+            <!-- Atividade 5 -->
+            <div class="card w-full bg-base-300 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]">
+              <div class="flex justify-between items-center">
+                <span class="badge badge-neutral text-xs">17/04</span>
+                <span class="badge badge-info text-xs">Integração</span>
+              </div>
+              <h3 class="text-lg font-semibold">Atividade 5</h3>
+              <p class="text-sm">Fazer fetch de uma API pública e exibir os dados no HTML.</p>
+              <div class="mt-2 text-sm text-info">
+                Feedback do professor: Excelente uso do async/await!
+              </div>
+            </div>
 
-          <!-- Outro card com feedback -->
-          <div class="card bg-cyan-900 text-base-content shadow-md">
-            <div class="card-body">
-              <h3 class="card-title">Atividade 3</h3>
-              <p>Descrição da atividade 3.</p>
-              <div class="mt-2">
-                <h4 class="font-semibold">Feedback do Professor:</h4>
-                <p>Precisa melhorar a estrutura do HTML.</p>
-              </div>
-            </div>
+            <div class="card w-full bg-base-300 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]">
+                <div class="flex justify-between items-center">
+                  <span class="badge badge-neutral text-xs">18/04</span>
+                  <span class="badge badge-info text-xs">Integração</span>
+                </div>
+                <h3 class="text-lg font-semibold">Atividade 6</h3>
+                <p class="text-sm">Integração de formulário com Supabase para salvar dados do usuário.</p>
+                <div class="mt-2 text-sm text-info">
+                  Feedback do professor: Ótimo uso do Supabase, só cuidado com o tratamento de erros!
+                </div>
+              </div>              
+          
           </div>
-        </div>
+          <!-- Seção de Envio de Atividades -->
+<div class="card w-full bg-base-300 text-base-content shadow-md p-6 mt-10">
+    <h2 class="text-2xl font-semibold mb-4">Enviar Atividade</h2>
+    <form action="#" method="POST" class="space-y-4">
+      
+      <!-- Título da Atividade -->
+      <div>
+        <label for="titulo" class="block text-sm font-medium">Título da Atividade</label>
+        <input type="text" id="titulo" name="titulo" class="input input-bordered w-full" placeholder="Digite o título da atividade">
       </div>
+  
+      <!-- Descrição da Atividade -->
+      <div>
+        <label for="descricao" class="block text-sm font-medium">Descrição</label>
+        <textarea id="descricao" name="descricao" class="textarea textarea-bordered w-full" placeholder="Descreva a atividade" rows="4"></textarea>
+      </div>
+  
+      <!-- Envio de Arquivo -->
+      <div>
+        <label for="arquivo" class="block text-sm font-medium">Enviar Arquivo</label>
+        <input type="file" id="arquivo" name="arquivo" class="file-input file-input-bordered w-full" />
+      </div>
+  
+      <!-- Botão de Envio -->
+      <div class="flex justify-end">
+        <button type="submit" class="btn btn-primary mt-4">Enviar</button>
+      </div>
+    </form>
+  </div>
+  
+      </div>
+
+      
     </div>
   </body>
 </html>

@@ -2,17 +2,17 @@
   <head>
     <title>Área do Aluno - Geração Tech 15</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.0.0/dist/full.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.0.0/dist/full.css"
+      rel="stylesheet"
+    />
   </head>
   <body class="min-h-screen bg-base-200">
-    <!-- Navbar -->
     <div class="navbar bg-base-100 shadow-md">
       <div class="flex-1 px-4 text-xl font-semibold">Geração Tech 15</div>
     </div>
 
-    <!-- Layout Principal -->
     <div class="flex">
-      <!-- Drawer lateral -->
       <div class="w-64 bg-base-100 p-4 shadow-lg hidden lg:block">
         <h3 class="text-lg font-semibold mb-2">Filtros por Módulo</h3>
         <div class="form-control space-y-1">
@@ -40,164 +40,288 @@
 
         <h3 class="text-lg font-semibold mt-6 mb-2">Calendário</h3>
         <div class="grid grid-cols-7 gap-2 text-center text-sm">
-            <!-- Cabeçalho dos dias da semana -->
-            <span class="font-bold">D</span>
-            <span class="font-bold">S</span>
-            <span class="font-bold">T</span>
-            <span class="font-bold">Q</span>
-            <span class="font-bold">Q</span>
-            <span class="font-bold">S</span>
-            <span class="font-bold">S</span>
-          
-            <!-- Dias com animação -->
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">1</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">2</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">3</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">4</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">5</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">6</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">7</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">8</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">9</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">10</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">11</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">12</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">13</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">14</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">15</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">16</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">17</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">18</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">19</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">20</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">21</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">22</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">23</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">24</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">25</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">26</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">27</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">28</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">29</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">30</span>
-            <span class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out">31</span>
-          </div>
-          
-          
+          <span class="font-bold">D</span>
+          <span class="font-bold">S</span>
+          <span class="font-bold">T</span>
+          <span class="font-bold">Q</span>
+          <span class="font-bold">Q</span>
+          <span class="font-bold">S</span>
+          <span class="font-bold">S</span>
+
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >1</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >2</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >3</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >4</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >5</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >6</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >7</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >8</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >9</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >10</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >11</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >12</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >13</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >14</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >15</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >16</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >17</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >18</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >19</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >20</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >21</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >22</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >23</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >24</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >25</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >26</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >27</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >28</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >29</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >30</span
+          >
+          <span
+            class="cursor-pointer hover:scale-110 hover:bg-base-300 rounded-md transition duration-200 ease-in-out"
+            >31</span
+          >
+        </div>
       </div>
 
-      <!-- Conteúdo central -->
       <div class="flex-1 p-6 space-y-4">
         <h2 class="text-2xl font-bold mb-4">Nome do Aluno</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-
-            <!-- Atividade 1 -->
-            <div class="card w-full bg-base-300 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]">
-              <div class="flex justify-between items-center">
-                <span class="badge badge-neutral text-xs">13/04</span>
-                <span class="badge badge-primary text-xs">HTML/CSS</span>
-              </div>
-              <h3 class="text-lg font-semibold">Atividade 1</h3>
-              <p class="text-sm">Criar uma landing page com HTML semântico e estilos básicos em CSS.</p>
-              <div class="mt-2 text-sm text-info">
-                Feedback do professor: Muito bom! Continue explorando o Flexbox.
-              </div>
+          <div
+            class="card w-full bg-base-300 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]"
+          >
+            <div class="flex justify-between items-center">
+              <span class="badge badge-neutral text-xs">13/04</span>
+              <span class="badge badge-primary text-xs">HTML/CSS</span>
             </div>
-          
-            <!-- Atividade 2 -->
-            <div class="card w-full bg-base-100 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]">
-              <div class="flex justify-between items-center">
-                <span class="badge badge-neutral text-xs">14/04</span>
-                <span class="badge badge-secondary text-xs">Git</span>
-              </div>
-              <h3 class="text-lg font-semibold">Atividade 2</h3>
-              <p class="text-sm">Enviar projeto para o GitHub usando linha de comando.</p>
-              <!-- Sem feedback -->
+            <h3 class="text-lg font-semibold">Atividade 1</h3>
+            <p class="text-sm">
+              Criar uma landing page com HTML semântico e estilos básicos em
+              CSS.
+            </p>
+            <div class="mt-2 text-sm text-info">
+              Feedback do professor: Muito bom! Continue explorando o Flexbox.
             </div>
-          
-            <!-- Atividade 3 -->
-            <div class="card w-full bg-base-300 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]">
-              <div class="flex justify-between items-center">
-                <span class="badge badge-neutral text-xs">15/04</span>
-                <span class="badge badge-accent text-xs">Frameworks</span>
-              </div>
-              <h3 class="text-lg font-semibold">Atividade 3</h3>
-              <p class="text-sm">Criar um componente reutilizável com Tailwind e DaisyUI.</p>
-              <div class="mt-2 text-sm text-info">
-                Feedback do professor: Ótima estrutura, só evite usar classes repetidas.
-              </div>
-            </div>
-          
-            <!-- Atividade 4 -->
-            <div class="card w-full bg-base-100 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]">
-              <div class="flex justify-between items-center">
-                <span class="badge badge-neutral text-xs">16/04</span>
-                <span class="badge badge-warning text-xs">Javascript</span>
-              </div>
-              <h3 class="text-lg font-semibold">Atividade 4</h3>
-              <p class="text-sm">Criar uma função em JS para calcular a média de notas.</p>
-              <!-- Sem feedback -->
-            </div>
-          
-            <!-- Atividade 5 -->
-            <div class="card w-full bg-base-300 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]">
-              <div class="flex justify-between items-center">
-                <span class="badge badge-neutral text-xs">17/04</span>
-                <span class="badge badge-info text-xs">Integração</span>
-              </div>
-              <h3 class="text-lg font-semibold">Atividade 5</h3>
-              <p class="text-sm">Fazer fetch de uma API pública e exibir os dados no HTML.</p>
-              <div class="mt-2 text-sm text-info">
-                Feedback do professor: Excelente uso do async/await!
-              </div>
-            </div>
-
-            <div class="card w-full bg-base-300 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]">
-                <div class="flex justify-between items-center">
-                  <span class="badge badge-neutral text-xs">18/04</span>
-                  <span class="badge badge-info text-xs">Integração</span>
-                </div>
-                <h3 class="text-lg font-semibold">Atividade 6</h3>
-                <p class="text-sm">Integração de formulário com Supabase para salvar dados do usuário.</p>
-                <div class="mt-2 text-sm text-info">
-                  Feedback do professor: Ótimo uso do Supabase, só cuidado com o tratamento de erros!
-                </div>
-              </div>              
-          
           </div>
-          <!-- Seção de Envio de Atividades -->
-<div class="card w-full bg-base-300 text-base-content shadow-md p-6 mt-10">
-    <h2 class="text-2xl font-semibold mb-4">Enviar Atividade</h2>
-    <form action="#" method="POST" class="space-y-4">
-      
-      <!-- Título da Atividade -->
-      <div>
-        <label for="titulo" class="block text-sm font-medium">Título da Atividade</label>
-        <input type="text" id="titulo" name="titulo" class="input input-bordered w-full" placeholder="Digite o título da atividade">
-      </div>
-  
-      <!-- Descrição da Atividade -->
-      <div>
-        <label for="descricao" class="block text-sm font-medium">Descrição</label>
-        <textarea id="descricao" name="descricao" class="textarea textarea-bordered w-full" placeholder="Descreva a atividade" rows="4"></textarea>
-      </div>
-  
-      <!-- Envio de Arquivo -->
-      <div>
-        <label for="arquivo" class="block text-sm font-medium">Enviar Arquivo</label>
-        <input type="file" id="arquivo" name="arquivo" class="file-input file-input-bordered w-full" />
-      </div>
-  
-      <!-- Botão de Envio -->
-      <div class="flex justify-end">
-        <button type="submit" class="btn btn-primary mt-4">Enviar</button>
-      </div>
-    </form>
-  </div>
-  
-      </div>
 
-      
+          <div
+            class="card w-full bg-base-100 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]"
+          >
+            <div class="flex justify-between items-center">
+              <span class="badge badge-neutral text-xs">14/04</span>
+              <span class="badge badge-secondary text-xs">Git</span>
+            </div>
+            <h3 class="text-lg font-semibold">Atividade 2</h3>
+            <p class="text-sm">
+              Enviar projeto para o GitHub usando linha de comando.
+            </p>
+          </div>
+
+          <div
+            class="card w-full bg-base-300 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]"
+          >
+            <div class="flex justify-between items-center">
+              <span class="badge badge-neutral text-xs">15/04</span>
+              <span class="badge badge-accent text-xs">Frameworks</span>
+            </div>
+            <h3 class="text-lg font-semibold">Atividade 3</h3>
+            <p class="text-sm">
+              Criar um componente reutilizável com Tailwind e DaisyUI.
+            </p>
+            <div class="mt-2 text-sm text-info">
+              Feedback do professor: Ótima estrutura, só evite usar classes
+              repetidas.
+            </div>
+          </div>
+
+          <div
+            class="card w-full bg-base-100 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]"
+          >
+            <div class="flex justify-between items-center">
+              <span class="badge badge-neutral text-xs">16/04</span>
+              <span class="badge badge-warning text-xs">Javascript</span>
+            </div>
+            <h3 class="text-lg font-semibold">Atividade 4</h3>
+            <p class="text-sm">
+              Criar uma função em JS para calcular a média de notas.
+            </p>
+          </div>
+
+          <div
+            class="card w-full bg-base-300 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]"
+          >
+            <div class="flex justify-between items-center">
+              <span class="badge badge-neutral text-xs">17/04</span>
+              <span class="badge badge-info text-xs">Integração</span>
+            </div>
+            <h3 class="text-lg font-semibold">Atividade 5</h3>
+            <p class="text-sm">
+              Fazer fetch de uma API pública e exibir os dados no HTML.
+            </p>
+            <div class="mt-2 text-sm text-info">
+              Feedback do professor: Excelente uso do async/await!
+            </div>
+          </div>
+
+          <div
+            class="card w-full bg-base-300 text-base-content shadow-md p-4 space-y-3 transition duration-200 hover:scale-[1.01]"
+          >
+            <div class="flex justify-between items-center">
+              <span class="badge badge-neutral text-xs">18/04</span>
+              <span class="badge badge-info text-xs">Integração</span>
+            </div>
+            <h3 class="text-lg font-semibold">Atividade 6</h3>
+            <p class="text-sm">
+              Integração de formulário com Supabase para salvar dados do
+              usuário.
+            </p>
+            <div class="mt-2 text-sm text-info">
+              Feedback do professor: Ótimo uso do Supabase, só cuidado com o
+              tratamento de erros!
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card w-full bg-base-300 text-base-content shadow-md p-6 mt-10"
+        >
+          <h2 class="text-2xl font-semibold mb-4">Enviar Atividade</h2>
+          <form action="#" method="POST" class="space-y-4">
+            <div>
+              <label for="titulo" class="block text-sm font-medium"
+                >Título da Atividade</label
+              >
+              <input
+                type="text"
+                id="titulo"
+                name="titulo"
+                class="input input-bordered w-full"
+                placeholder="Digite o título da atividade"
+              />
+            </div>
+
+            <div>
+              <label for="descricao" class="block text-sm font-medium"
+                >Descrição</label
+              >
+              <textarea
+                id="descricao"
+                name="descricao"
+                class="textarea textarea-bordered w-full"
+                placeholder="Descreva a atividade"
+                rows="4"
+              ></textarea>
+            </div>
+
+            <div>
+              <label for="arquivo" class="block text-sm font-medium"
+                >Enviar Arquivo</label
+              >
+              <input
+                type="file"
+                id="arquivo"
+                name="arquivo"
+                class="file-input file-input-bordered w-full"
+              />
+            </div>
+
+            <div class="flex justify-end">
+              <button type="submit" class="btn btn-primary mt-4">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>
